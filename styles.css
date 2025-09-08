@@ -1,0 +1,93 @@
+body {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+  display: flex; 
+  gap: 4%;
+}
+
+.flex-container > div {
+  width: 48%;
+}
+
+.flex-container-coluun {
+  display: flex-coloum;
+  align-items: stretch;
+}
+.flex-container-coluun > div {
+  margin: 10px;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+.input-wrapper {
+  width: 100%; 
+}
+
+.input-wrapper input, select {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+
+form input {
+  
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: #063970;
+  color: azure;
+  padding: 15px 15px 15px 15px;
+  margin-left: 10px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+select {
+  align-items: stretch; 
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.font1 {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #063970;
+}
+
+.font2 {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1e81b0;
+}
+
+.submitbutton {
+  margin-top: 30px;
+  word-spacing: 1.25px;
+  line-height: 1.5;
+  border: 1px solid #000;
+  background-color: #1e81b0;
+  font-weight: bold;
+}
+
